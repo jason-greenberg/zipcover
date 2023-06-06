@@ -70,5 +70,5 @@ The API comes seeded with 3 demo users for testing purposes. The build command w
 ## **Start**
 To start the application, run the following command:
 ```bash
-gunicorn app:app
+gunicorn app:app --timeout 120
 ```
